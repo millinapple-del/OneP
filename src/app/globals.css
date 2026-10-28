@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root { --brand: #ebf21b; --ink: #111111; --muted: #777777; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #f7f7f4; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+button, input, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: var(--brand); color: #111; }
